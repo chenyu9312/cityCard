@@ -2,6 +2,7 @@
     flex: 1 1 50%;
     position: relative;
     border: 1px solid #efefef;
+    color: #666666;
   }
   
   .card-content {
@@ -32,9 +33,14 @@
   }
   .subtitle{
       margin: 0 0 15px;
+      font-weight: 700;
   }
   html{
       line-height: 1.2;
+      color: #444444;
+      font-family: 'Nunito',sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
   }
   h1, h2, h3, h4, h5{
     line-height: 1.6;
